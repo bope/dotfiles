@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+if ! which cmus &> /dev/null ; then
+    echo "install: cmus"
+    exit 1
+fi
+mkdir -p ~/.config/cmus
+cp ./autosave ~/.config/cmus/
+cp ./bope.theme ~/.config/cmus/
