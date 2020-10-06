@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+if ! which alacritty &> /dev/null ; then
+    echo "install: alacritty"
+    exit 1
+fi
+
+mkdir -p ~/.config/alacritty
+cp ./alacritty.yml ~/.config/alacritty/

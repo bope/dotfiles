@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+if ! which bash &> /dev/null ; then
+    echo "install: bash"
+    exit 1
+fi
+
+cp ./bash_profile ~/.bash_profile
+cp ./inputrc ~/.inputrc
+cp ./dircolors ~/.dircolors
+cat ./*.bash > ~/.bashrc

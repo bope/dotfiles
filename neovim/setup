@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if ! which nvim &> /dev/null ; then
+    echo "install: vim"
+    exit 1
+fi
+
+
+mkdir -p ~/.config/nvim
+cp ./init.vim ~/.config/nvim/

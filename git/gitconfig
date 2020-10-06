@@ -1,0 +1,24 @@
+[user]
+    name = Per Bodin
+    email = per.bodin@gmail.com
+
+[alias]
+    ci = commit
+    br = branch
+    co = checkout
+    st = status
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = true
+[push]
+	default = simple
+[rerere]
+    enabled = true
+[diff]
+	algorithm = patience
+
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/

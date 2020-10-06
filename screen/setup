@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if ! which screen &> /dev/null ; then
+    echo "install: screen"
+    exit 1
+fi
+
+cp ./screenrc ~/.screenrc

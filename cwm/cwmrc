@@ -1,0 +1,45 @@
+fontname "Terminus-14"
+#fontname "terminus:pixelsize=14"
+borderwidth 5
+gap 0 0 0 0
+snapdist 10
+sticky yes
+
+color font "#dfbf8e"
+color selfont "#a9b665"
+color menubg "#282828"
+color menufg "#dfbf8e"
+color activeborder "#a9b665"
+color inactiveborder "#928374"
+color urgencyborder "#ea6962"
+
+command term "alacritty"
+
+unbind-key all
+unbind-mouse all 
+
+bind-key 4-Return terminal
+bind-key 4-p "dmenu_run"
+
+bind-key 4-Tab window-cycle
+bind-key 4S-Tab group-cycle
+
+bind-key 4-m window-fullscreen
+bind-key 4-c window-close
+
+
+bind-key 4-1 group-only-1
+bind-key 4-2 group-only-2
+
+bind-key 4S-1 window-movetogroup-1
+bind-key 4S-2 window-movetogroup-2
+
+bind-mouse 4-3 window-resize
+bind-mouse 4-1 window-move
+
+bind-key 4-Left window-vtile
+
+bind-key 4S-q restart
+
+bind-mouse 4-4 group-rcycle
+bind-mouse 4-5 group-cycle
