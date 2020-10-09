@@ -13,12 +13,12 @@
     status = auto
     branch = auto
     interactive = true
+
 [push]
 	default = simple
+
 [rerere]
     enabled = true
+
 [diff]
 	algorithm = patience
-
-[url "git@bitbucket.org:"]
-	insteadOf = https://bitbucket.org/
