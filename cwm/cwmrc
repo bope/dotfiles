@@ -36,6 +36,7 @@ bind-key 4S-2 window-movetogroup-2
 
 bind-mouse 4-3 window-resize
 bind-mouse 4-1 window-move
+bind-mouse 4-2 window-lower
 
 bind-key 4-Left window-vtile
 

@@ -52,6 +52,7 @@ set formatoptions+=1   " don't break a line after a one-letter word
 
 autocmd FileType go setlocal noexpandtab
 set omnifunc=syntaxcomplete#Complete
+imap <c-space> <c-x><c-o>
 
 
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
