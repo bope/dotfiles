@@ -1,5 +1,4 @@
 fontname "Terminus-14"
-#fontname "terminus:pixelsize=14"
 borderwidth 5
 gap 0 0 0 0
 snapdist 10
@@ -26,7 +25,6 @@ bind-key 4S-Tab group-cycle
 
 bind-key 4-m window-fullscreen
 bind-key 4-c window-close
-
 
 bind-key 4-1 group-only-1
 bind-key 4-2 group-only-2
