@@ -69,6 +69,8 @@ if filereadable(expand("~/.config/nvim/autoload/plug.vim"))
     Plug 'sheerun/vim-polyglot'
     Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
     Plug 'morhetz/gruvbox'
+    Plug 'vimwiki/vimwiki'
+    Plug 'dbeniamine/todo.txt-vim'
     call plug#end()
     " theme
     colorscheme gruvbox

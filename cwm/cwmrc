@@ -3,6 +3,7 @@ borderwidth 5
 gap 0 0 0 0
 snapdist 10
 sticky yes
+vtile 65
 
 color font "#dfbf8e"
 color selfont "#a9b665"
